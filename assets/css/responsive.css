@@ -1,0 +1,36 @@
+@media only screen and (max-width:900px){
+    #page-home{
+        background-position-x: 70vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+    #page-home main p {
+        padding: 0 10px;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:1190px){
+    #page-home main{
+        width: 50%;
+        
+    }
+    #page-home{
+        background-position-x: 30vw;
+    }
+}
+@media(max-height:768px){
+    #page-home{
+        background-position-y: 100px;
+    }
+}
