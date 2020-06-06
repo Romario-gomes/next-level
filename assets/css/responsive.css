@@ -19,6 +19,9 @@
     #page-home main p {
         padding: 0 10px;
     }
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
 }
 @media only screen and (min-width:901px) and (max-width:1190px){
     #page-home main{
